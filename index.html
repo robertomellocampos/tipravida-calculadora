@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.css" />
+    <script src="/index.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mt-2">
+            <div id="result">
+                <div id="preview"></div>
+                <input type="text" placeholder="0" name="display" id="display" value="0" />
+            </div>
+        </div>
+        <div class="mt-2">
+            <button onclick="" class="op">(</button>
+            <button onclick="" class="op">)</button>
+            <button onclick="" class="op">%</button>
+            <button onclick="clean()" class="op">AC</button>
+        </div>
+        <div class="mt-2">
+            <button onclick="num('7')" class="num">7</button>
+            <button onclick="num('8')" class="num">8</button>
+            <button onclick="num('9')" class="num">9</button>
+            <button onclick="op('÷')" class="op">÷</button>
+        </div>
+        <div class="mt-2">
+            <button onclick="num('4')" class="num">4</button>
+            <button onclick="num('5')" class="num">5</button>
+            <button onclick="num('6')" class="num">6</button>
+            <button onclick="op('x')" class="op">x</button>
+        </div>
+        <div class="mt-2">
+            <button onclick="num('1')" class="num">1</button>
+            <button onclick="num('2')" class="num">2</button>
+            <button onclick="num('3')" class="num">3</button>
+            <button onclick="op('-')" class="op">-</button>
+        </div>
+        <div class="mt-2">
+            <button onclick="num('0')" class="num">0</button>
+            <button onclick="num('.')" class="num">.</button>
+            <button onclick="result()" class="eq">=</button>
+            <button onclick="op('+')" class="op">+</button>
+        </div>
+    </div>
+</body>
+
+</html>
